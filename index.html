@@ -1,65 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<link rel="shortcut icon" href="img/favicon.ico"> 
+	<link rel="stylesheet" href="css/vendor/fluidbox.min.css">
+	<link rel="stylesheet" href="css/main.css">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="script.js"></script>
+	<title>Ben Spencer portfolio</title>
 
 </head>
-
-<body style="background-color: #5c5c5c;">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"></script>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-
-  <a style="background-color: lightgray; outline-color: none;" class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-    aria-controls="offcanvasExample">
-    Contents
-  </a>
-
-  <div style="background-color: grey; color: white; outline-right: 30px none black;" class="offcanvas offcanvas-start" tabindex="-1"
-    id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body" style="">
-      <div>
-        Text
-        etc.
-      </div>
-    </div>
-  </div>
+<body>
 
 
+	<header>
 
+		<div id="logo-container">
+			<div id="logo"><a href="https://www.linkedin.com/in/ben-spencer-6a62a627b/">Ben Spencer</a></div>
+			<div id="subtitle">My Portfolio</div>
+		</div>
 
-  <h1 style="text-align: center;">Wow amazing project</h1>
-  <div style="height: 511px; width:821px; position: absolute; left: 50%;
-    -moz-transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)">
-  <iframe src="https://mdn.github.io/dom-examples/webgl-examples/tutorial/sample5/"  
-    name="Game name" scrolling="no" height="100%" width="100%"></iframe>
-  </div>
-  <iframe src="https://replit.com/@ben-spencer/first-bot?embed=true" width="600" height="400" />
+	</header>
 
-  <div class="header">
-    <div class="progress-container">
-      <div class="progress-bar" id="myBar"></div>
-    </div>
-  </div>
+	<div id="content">
+
+		<section class="intro">
+			<h1 style="font-size: 70px; margin-bottom: 0;"><a >Project AHSN</a></h1>
+			<p style="font-size: 20px;">As a group of pupils working with the Academic Health Science Network, we developed a Python application that aims to improve the process of booking appointments with the NHS.<br> Our application allows users to answer questions about their symptoms, which are used to recommend suitable appointment times and locations. To ensure user privacy, all user data is encrypted and saved in a secure database. We are proud to share an embedded version of our application, which can be accessed through <a href="AHSN_project.html">this link</a> to see an embedded version of the application.</p>
+		</section>
+
+		<img src="img/Screenshot 2023-06-16 192647.png" alt="">
+	</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>
+	if (!window.jQuery) 
+	{
+	    document.write('<script src="js/vendor/jquery.1.11.min.js"><\/script>');
+	}
+	</script>
+
+	<script src="js/vendor/jquery.fluidbox.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+		ga('create', 'YOUR_GOOGLE_ANALYTICS_ID', 'auto');
+		ga('send', 'pageview');
+  
+	  </script>
 
 </body>
-
 </html>
+
+
