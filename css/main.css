@@ -212,10 +212,10 @@ html {
 }
 
 body {
-  -webkit-font-feature-settings: "kern", "liga", "frac", "pnum";
-  -moz-font-feature-settings: "kern", "liga", "frac", "pnum";
-  -ms-font-feature-settings: "kern", "liga", "frac", "pnum";
-  font-feature-settings: "kern", "liga", "frac", "pnum";
+  -webkit-font-feature-settings: "kern", "liga", "pnum";
+  -moz-font-feature-settings: "kern", "liga", "pnum";
+  -ms-font-feature-settings: "kern", "liga", "pnum";
+  font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   background-color: #22272a;
@@ -495,7 +495,7 @@ header nav ul li a.bordered {
   font-size: 8em;
   border-top: 2px solid #fff;
   letter-spacing: -0.05em;
-  margin-top: 1.2em;
+  
   margin-bottom: 1em;
 }
 @media screen and (max-width: 540px) {

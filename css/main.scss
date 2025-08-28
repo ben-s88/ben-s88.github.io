@@ -139,7 +139,7 @@ header {
 			font-size: 1em;
 			border-top: $heading-border;
 			letter-spacing: -0.05em;
-			margin-top: 1.2em;
+			margin-top: 0;
 			margin-bottom: 1em;
 
 			@include media($mobile) {
